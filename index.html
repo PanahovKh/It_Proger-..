@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML5 & CSS </title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+<header>
+  <div id="logo" onclick="slowScroll('#top')">
+    <span>itProger</span>
+  </div>
+  <div id="about">
+    <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+    <a href="#" title="Преимущества" onclick="slowScroll('#overiew')">Преимущества</a>
+    <a href="#" title="Контакты" onclick="slowScroll('#contacts')">Контакты</a>
+    <a href="#" title="FAQ" onclick="slowScroll('#faq')">FAQ</a>
+  </div>
+</header>
+
+<div id="top">
+<h1>Программирование</h1>
+<h3>как способ жизни!</h3>
+</div>
+
+<div id="main">
+  <div class="intro">
+    <h2>Наши услиги помогут вам!</h2>
+    <span>Большой выбор всего что может вам пригодиться</span>
+    </div>
+    <div class="text">
+      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco .</span>
+  </div>
+</div>
+
+<div id="overview">
+  <h2>Преимущества</h2>
+  <h4>С нами все проше</h4>
+  <div class="img">
+    <img src="https://itproger.com/img/courses/1532975967.jpg" alt="">
+    <span>изучение языка Ruby для начинающых</span>
+  </div>
+  <div class="img">
+    <img src="https://itproger.com/img/courses/1530341233.jpg" alt="">
+    <span>Уроки PhotoShop для начинающых</span>
+  </div>
+</div>
+
+<div id="contacts">
+  <center><h5>Обратная связь</h5></center>
+  <form id="form_input">
+    <label for="name">Имя <span>*</span></label><br>
+    <input type="text" name="name" id="name" placeholder="Введите имя"><br>
+    <label for="email">Ваша почта <span>*</span></label><br>
+    <input type="email" name="email" id="email" placeholder="Введите email"><br>
+    <label for="message">Сообшение <span>*</span></label><br>
+    <textarea name="message" id="message" placeholder="Введите ваше сообшение"></textarea>
+    <div id="mess_send" class="btn">Отправить</div>
+  </form>
+</div>
+
+<div id="faq">
+  <div>
+     <span class="title">Оплата</span>  <br>
+     <span class="heading">Как будет проходить оплата?</span>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+         in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      <span class="heading">Как будет проходить оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+         in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+     <span class="heading">Как будет проходить оплата?</span>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+  </div>
+  <div>
+     <span class="title">Гарантии</span>  <br>
+     <span class="heading">Какие гарантии есть?</span>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+         in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      <span class="heading">Какие гарантии есть?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+         in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+     <span class="heading">Какие гарантии есть?</span>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+  </div>
+  <div>
+     <span class="title">Информация</span>  <br>
+     <span class="heading">Что входить в услуги сервиса?</span>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+         in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      <span class="heading">Что входить в услуги сервиса?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+         in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+     <span class="heading">Что входить в услуги сервиса?</span>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function slowScroll(id) {
+  $('html','body').animate ({
+    scrollTop: $(id).offset().top
+  },500);
+}
+
+$(document).on("scroll", function() {
+if($(window).scrollTop() === 0)
+$("header").removeClass("fixed");
+else
+$("header").attr("class","fixed");
+});
+</script>
+
+
+
+</body>
+</html>
