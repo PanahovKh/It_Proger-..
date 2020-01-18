@@ -14,10 +14,10 @@
     <span>itProger</span>
   </div>
   <div id="about">
-    <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
-    <a href="#" title="Преимущества" onclick="slowScroll('#overiew')">Преимущества</a>
-    <a href="#" title="Контакты" onclick="slowScroll('#contacts')">Контакты</a>
-    <a href="#" title="FAQ" onclick="slowScroll('#faq')">FAQ</a>
+    <a href="#main" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+    <a href="#overiew" title="Преимущества" onclick="slowScroll('#overiew')">Преимущества</a>
+    <a href="#contacts" title="Контакты" onclick="slowScroll('#contacts')">Контакты</a>
+    <a href="#faq" title="FAQ" onclick="slowScroll('#faq')">FAQ</a>
   </div>
 </header>
 
@@ -158,7 +158,7 @@
 
 <script>
 function slowScroll(id) {
-  $('html','body').animate ({
+  $('html','body').animate({
     scrollTop: $(id).offset().top
   },500);
 }
